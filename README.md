@@ -1,7 +1,7 @@
 # Happy-Ball
 
 ## How to try the game? 
-The game can be tested from the phone, by downloading the HappyBall.apk. Also in "Screenshots" you can find the main screenshots that will help you to understand the game logic. 
+The game can be tested from the phone, by downloading the HappyBall.apk. Also in "Screenshots" you can find the main screenshots that will help you to understand the game logic. You can find the patterns in Happy-Ball/Happy Ball/Assets/Scripts
 
 ## Introduction
 Our team designed a simple survival game Happy Ball. The main character is the white ball, its life is represented by the green bar at the top of the screen. The goal is to keep the ball alive. It can lose its power by a simple touch of an enemy. Enemies are designed as smaller balls than will change their trajectory based on main ball movement. 
