@@ -1,11 +1,12 @@
 # Happy-Ball
 
 ## How to try the game? 
-The game can be tested from the phone, by downloading the HappyBall.apk. Also in "Screenshots" you can find the main screenshots that will help you to understand the game logic. You can find the patterns in Happy-Ball/Happy Ball/Assets/Scripts
+The game can be tested from the phone, by downloading the HappyBall.apk. Also at the end of the README you can find the main screenshots that will help you to understand the game logic. You can find the patterns in Happy-Ball/Happy Ball/Assets/Scripts
 
 ## Introduction
 Our team designed a simple survival game Happy Ball. The main character is the white ball, its life is represented by the green bar at the top of the screen. The goal is to keep the ball alive. It can lose its power by a simple touch of an enemy. Enemies are designed as smaller balls than will change their trajectory based on main ball movement. 
-We created 3 types of enemies in order to implement the desired design patterns. One is very fast but has little life, another one has more life but is slower. The third one takes more life from our main ball, but his movement is not based on the ball.
+We created 3 types of enemies in order to implement the desired design patterns. One is very fast but has little life, another one has more life but is slower. The third one takes more life from our main ball, but his movement is not based on the ball. 
+The white rhombus has the power of giving life to our main ball, magic, isn't it? 
 
 
 ## The patterns that we have used 
@@ -21,4 +22,17 @@ Bridge: is one of structural design patterns that came up to split a big class i
 ### Memento
 Memento is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation. This pattern is used when you need to save the state of object. But because the encapsulation you can't access all needed fields, either you need to make all fields public or restrict access to their state, making it impossible to change the state. This pattern delegates creating the state snapshots to actual owner, the object. Instead of other objects trying to copy the original class the class itself can make snapshot. It is implemented using: nested classes, or intermediate interface. Memento is used when you want to produce snapshots of the object's state to be able to restore to a previous state of object, or when direct access to the object's fields/getters/setters violates its encapsulation.
 
-### Enjoy the game
+### Game Screenshots
+##### Full life
+When the game starts the main white ball is in the center with 100% of life and enemies starts to appear. (two circles in right and left corner are used for ball movement)
+![alt text](https://github.com/Laptedulcenicu/Happy-Ball/blob/master/Screenshots/photo_2019-10-29_10-46-22.jpg)
+More enemies appear on the war land
+![alt text](https://github.com/Laptedulcenicu/Happy-Ball/blob/master/Screenshots/photo_2019-10-29_10-46-30.jpg)
+
+##### Dying from enemies attacks
+Pink and blue enemies catch the white ball position and try to kill the ball by just touching it. The ball life is decreasing. The ball should try to touch the rhombus to survive. 
+![alt text](https://github.com/Laptedulcenicu/Happy-Ball/blob/master/Screenshots/photo_2019-10-29_10-46-25.jpg)
+
+##### Game over
+If the life bar shows 0 number than our ball dies. You can try again. 
+![alt text](https://github.com/Laptedulcenicu/Happy-Ball/blob/master/Screenshots/photo_2019-10-29_10-46-19.jpg)
